@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.rigigo.agenda.Contacto"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/subtitulo"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombres"
+        android:textStyle="bold"
+        android:textSize="@dimen/campo_tamano"
+        android:layout_marginTop="@dimen/top"
+        android:layout_gravity="center_horizontal"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/top"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha Nacimiento: "
+            android:textStyle="normal"
+            android:textSize="@dimen/campo_tag"/>
+
+        <TextView
+            android:id="@+id/tvFecNac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nacimiento"
+            android:textSize="@dimen/campo_tamano"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/top">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono: "
+        android:textStyle="normal"
+        android:textSize="@dimen/campo_tag"/>
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telefono"
+        android:layout_gravity="center_vertical"
+        android:textSize="@dimen/campo_tamano"
+        android:textStyle="bold"
+         />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/top">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textStyle="normal"
+        android:textSize="@dimen/campo_tag"/>
+
+    <TextView
+        android:id="@+id/tvCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/correo"
+        android:textSize="@dimen/campo_tamano"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/top">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción: "
+        android:textStyle="normal"
+        android:textSize="@dimen/campo_tag"/>
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion"
+        android:layout_gravity="center_vertical"
+        android:textSize="@dimen/campo_tamano"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/left" />
+</LinearLayout>
+
+    <Button
+        android:id="@+id/btnPrev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar datos"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:onClick="event.preventDefault()"/>
+
+
+</LinearLayout>

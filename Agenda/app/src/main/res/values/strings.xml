@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="pnombre">nombre</string>
+    <string name="nombres">Ricardo Giraldo G.</string>
+    <string name="telefono">3173708385</string>
+    <string name="correo">rgiraldog@gmail.com</string>
+    <string name="descripcion">Buena persona</string>
+    <string name="nacimiento">08-12-1993</string>
+    <string name="subtitulo">Confirmar Datos</string>
+</resources>

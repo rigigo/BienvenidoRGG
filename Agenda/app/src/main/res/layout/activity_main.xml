@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rigigo.agenda.MainActivity"
+    android:weightSum="1">
+
+
+
+     <LinearLayout
+         android:layout_width="350dp"
+         android:layout_height="424dp"
+         android:orientation="vertical"
+         >
+
+          <EditText
+              android:id="@+id/etNombrePersona"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:inputType="textPersonName"
+              android:layout_gravity="center_vertical"
+              android:hint="Nombre"
+              android:imeOptions="actionNext"
+              />
+
+          <EditText
+              android:id="@+id/etFecNac"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:inputType="date"
+              android:layout_gravity="center_vertical"
+              android:hint="Fecha nacimiento"
+              android:imeOptions="actionNext"
+              />
+
+          <EditText
+              android:id="@+id/etTelefono"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:inputType="phone"
+              android:layout_gravity="center_vertical"
+              android:hint="Telefono"
+              android:imeOptions="actionNext"
+
+              />
+
+          <EditText
+              android:id="@+id/etEmail"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:inputType="textEmailAddress"
+              android:layout_gravity="center_vertical"
+              android:hint="Email"
+              android:imeOptions="actionNext"
+
+              />
+
+          <EditText
+              android:id="@+id/etDescripcion"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:inputType="text"
+              android:layout_gravity="center_vertical"
+              android:hint="Descripción"
+              android:imeOptions="actionNext"
+
+              />
+
+          <Button
+              android:id="@+id/btnNext"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Siguiente"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginBottom="10dp"
+              android:onClick="Siguiente"/>
+
+     </LinearLayout>
+</LinearLayout>
